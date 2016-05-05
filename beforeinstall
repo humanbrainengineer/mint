@@ -1,0 +1,12 @@
+acution:
+1.set the dell notebook as following:
+     secure mode is off
+     uefi mode is off 
+     legacy mode is on.
+2.partioning :
+     It is just set the /boot partioning
+     it must not set the /boot/efi partioning
+
+3. the 3th partion (/boot) is fat32 or vfat format which use for the /boot partioning.
+
+4. the 3th partion (/boot) need mark to the "boot" tag. 
